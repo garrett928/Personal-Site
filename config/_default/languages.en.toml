@@ -3,20 +3,20 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Garrett's Site"
+title = "Garrett Hart"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
   dateFormat = "Janurary 2, 2006"
 
-  mainSections = ["section1", "section2"]
-  description = "My awesome website"
+  # mainSections = ["section1", "section2"]
+  description = "Garrett Hart Website"
 
 [params.author]
   name = "Garrett Hart"
-  image = "garrett-rocket-robot-3.png"
-  headline = "I'm only human"
-  bio = "A little bit about you"
+  image = "garrett-rocket-close-up.png"
+  headline = "My cool headline goes here"
+  bio = "A little bit about you" #goes in article footers
   links = [
     { email = "mailto:darkmoon7621@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },

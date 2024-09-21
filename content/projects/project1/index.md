@@ -1,0 +1,41 @@
+---
+layout: page
+permalink: "project1"
+title: "Project1"
+date: 2020-02-05
+showAuthor: true
+showDate: true
+showReadingTime: true
+---
+
+## NOT MY PROJECT! Example post from [here](https://github.com/james-millner/jamesmillner.dev)
+
+2020 -> 2022
+
+[DartsNow](https://twitter.com/PlayDartsNow) was a passion project between myself good friend from the University of Huddersfield. It came about due to our
+historic interest in darts which grew out of our university accommodation. Throughout the pandemic period we had no way 
+to get together and play, so as a result DartsNow was born!
+
+DartsNow offered users a platform to sign up, play a standard format of darts. Each user could setup a game with a custom 
+amount of legs they wanted to play, and to a total of 701, 501, 301, 101. It processed each set of darts thrown, calculated statistics 
+from each game, while also offering peer to peer video via WebRTC to communicate with friends as you played.
+
+## Features
+* Web front end designed with mobile first focus
+* User registration
+* Live Darts Scoring
+* Peer to Peer video calling within a match
+* Match History Stats and Scoring
+
+## Tech Bits
+* Spring Boot Backend 
+* Thymeleaf Templated Front End
+* Material UI Design
+* Websocket implementation for live scoring
+* WebRTC integration
+* Metrics using Micrometer, stored and visualised using Prometheus & Grafana.
+
+The project has ceased to exist at the moment. But you can find out lots of information from our public twitter page about 
+what we got up to.
+
+{{< tweet user="PlayDartsNow" id="1280483483928997888" >}}
