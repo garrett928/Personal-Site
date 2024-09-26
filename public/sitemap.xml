@@ -5,21 +5,42 @@
     
       <url>
             <loc>http://localhost:1313/</loc>
-            <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+            <lastmod>2023-12-10T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/projects/project1/</loc>
-            <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/projects/light-up-engraved-wood-logo/</loc>
+            <lastmod>2023-12-10T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>http://localhost:1313/projects/</loc>
-            <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+            <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/simulated-car-can-bus/</loc>
+            <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/switching-power-supplies/</loc>
+            <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/room-light_control/</loc>
+            <lastmod>2019-09-10T00:00:00+00:00</lastmod>
           </url>
     
   
