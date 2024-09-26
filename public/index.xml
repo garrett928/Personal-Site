@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Congo! :tada: on Garrett Hart</title>
+    <title>Home Page on Garrett Hart</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to Congo! :tada: on Garrett Hart</description>
+    <description>Recent content in Home Page on Garrett Hart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
@@ -27,7 +27,7 @@
       <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resume/</guid>
-      <description>Here&amp;rsquo;s my cool resume</description>
+      <description>Look at my resume!</description>
     </item>
   </channel>
 </rss>

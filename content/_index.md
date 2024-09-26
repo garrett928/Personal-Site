@@ -1,14 +1,12 @@
 ---
-title: "Welcome to Congo! :tada:"
-description: "This is a demo of the Congo theme for Hugo."
+title: "Home Page"
+description: "Garrett Hart Home Page"
 ---
 
-{{< lead >}}
-A powerful, lightweight theme for Hugo built with Tailwind CSS.
-{{< /lead >}}
+<!-- {{< lead >}}
 
-This is a demo site built entirely using Congo. It also contains a complete set of. Congo is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.
+{{< /lead >}} -->
+
+Hi, I'm Garrett. Currently, I'm an Electrical Engineer at [DEKA Research and Development](https://dekaresearch.com/). I love working on small, fast paced teams under pressure to solve complex technical problems. My interest are in embedded systems, circuits, networking, and power systems. In my free time I enjoy making projects, hanging out with friends, running, and bowling. I'm also a [FIRST Robotics](https://www.firstinspires.org/robotics/frc) mentor of 10 years.
 
 <!-- {{< figure src="garrett-rocket-wide.png" >}} -->
-
-Explore the to get a feel for what Congo can do. If you like what you see, check out the project on [Github](https://github.com/jpanther/congo) or read the  to get started.
