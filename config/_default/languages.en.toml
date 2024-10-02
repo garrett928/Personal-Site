@@ -15,7 +15,7 @@ title = "Garrett Hart"
 [params.author]
   name = "Garrett Hart"
   image = "garrett-rocket-close-up.png"
-  headline = "Electrical Engineer with a passion for software"
+  headline = "Electrical Engineer with a passion for software development"
   bio = "Electrical Engineer" #goes in article footers
   links = [
     { email = "mailto:darkmoon7621@gmail.com" },
