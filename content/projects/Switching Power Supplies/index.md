@@ -15,9 +15,4 @@ During college I took an intro to switching power supplies course as an elective
 {{< figure src="images/boost-converter-top.jpeg">}}
 
 # Buck Converter
-* Spring Boot Backend 
-* Thymeleaf Templated Front End
-* Material UI Design
-* Websocket implementation for live scoring
-* WebRTC integration
-* Metrics using Micrometer, stored and visualised using Prometheus & Grafana.
+
