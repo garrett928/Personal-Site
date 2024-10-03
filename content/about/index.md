@@ -14,24 +14,15 @@ I'm an engineer with an electrical background and years of practical, hands on s
 
 ## Technical Skills Summary
 
+| 
+------------ | -------------
+**Programming Languages** | Java &bull; Python &bull; C &bull; Matlab &bull; Labview
+**Operating Systems**  |  Linux (Ubuntu, CentOS, Fedora) &bull; Windows &bull; WSL &bull; MacOS
+**Developer Tools** | Git &bull; Github &bull; Deveops / Gitops &bull; CI/CD &bull; Agile &bull; Jira &bull; Azure Could Platform
+**Software Technologies** | Docker &bull; Kubernetes &bull; Kafka &bull; Grafana &bull; Prometheus &bull; Ansible &bull; TrueNAS &bull; ArgoCD
+**Other Technologies** | PTI/PSSE &bull; CAN &bull; Soldering &bull; Altium Designer
+**Disciplines** | Computer Networking &bull; Signal Processing &bull; Embedded Systems &bull; PCB Development &bull; Aerospace and Defens
 
-### Programming Languages
-
-Java &bull; Python &bull; C &bull; Matlab &bull; Labview
-
-### Operating Systems
-
-Linux (Ubuntu, CentOS, Fedora) &bull; Windows &bull; WSL &bull; MacOS
-
-### Technolgies
-
-Ansible &bull; Kafka &bull; Docker &bull; Kubernetes &bull; Grafana &bull; Prometheus &bull; git &bull;
-Github &bull; CI/CD &bull; ArgoCD &bull; Gitops &bull; Agile &bull; Jira &bull; PSSE &bull; CAN &bull;
-Azure &bull; Micro Services &bull; SPI &bull; TrueNAS &bull; Proxmox
-
-### Disciplines
-
-Computer Networking &bull; Signal Processing &bull; Embedded Systems &bull; PCB Development &bull; Aerospace and Defense
 
 ## Work Experience
 
