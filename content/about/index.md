@@ -21,7 +21,7 @@ I'm an engineer with an electrical background and years of practical, hands on s
 **Developer Tools** | Git &bull; Github &bull; Deveops / Gitops &bull; CI/CD &bull; Agile &bull; Jira &bull; Azure Could Platform
 **Software Technologies** | Docker &bull; Kubernetes &bull; Kafka &bull; Grafana &bull; Prometheus &bull; Ansible &bull; TrueNAS &bull; ArgoCD
 **Other Technologies** | PTI/PSSE &bull; CAN &bull; Soldering &bull; Altium Designer
-**Disciplines** | Computer Networking &bull; Signal Processing &bull; Embedded Systems &bull; PCB Development &bull; Aerospace and Defens
+**Disciplines** | Computer Networking &bull; Signal Processing &bull; Embedded Systems &bull; PCB Development &bull; Aerospace and Defense
 
 
 ## Work Experience
