@@ -131,7 +131,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "71"
+    "wordCount": "244"
   }
   </script>
     <script type="application/ld+json">
@@ -230,6 +230,22 @@
             <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
               
                 <a
+                  href="/about/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >About</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
                   href="/resume/"
                   title=""
                   
@@ -313,16 +329,66 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
-      <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h3 id="hi-wave" class="relative group">Hi 👋 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#hi-wave" aria-label="Anchor">#</a></span></h3><p>Here&rsquo;s some juicy info about me!</p>
-<!-- ![Ah Huddersfield](images/cycling-collage.PNG "Some lovely Huddersfield hills, one of the trusty bikes!") -->
-<h3 id="fun-facts" class="relative group">Fun Facts <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#fun-facts" aria-label="Anchor">#</a></span></h3><h3 id="engineering-specific-notes" class="relative group">Engineering Specific Notes <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#engineering-specific-notes" aria-label="Anchor">#</a></span></h3><h3 id="experience" class="relative group">Experience <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#experience" aria-label="Anchor">#</a></span></h3><h3 id="other-technical-experience" class="relative group">Other Technical Experience <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#other-technical-experience" aria-label="Anchor">#</a></span></h3><h4 id="programming--scripting-languages" class="relative group">Programming / Scripting Languages <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#programming--scripting-languages" aria-label="Anchor">#</a></span></h4><p>Java • Python • C • Matlab • Labview • Xmidas</p>
-<h4 id="operating-systems" class="relative group">Operating Systems <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#operating-systems" aria-label="Anchor">#</a></span></h4><p>MacOS • Ubuntu • Debian • Windows, especially WSL</p>
-<h4 id="cloud-computing-and-automation" class="relative group">Cloud Computing and Automation <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cloud-computing-and-automation" aria-label="Anchor">#</a></span></h4><p>AWS •  Digital Ocean • Ansible</p>
-<h4 id="event-driven-tools" class="relative group">Event Driven Tools <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#event-driven-tools" aria-label="Anchor">#</a></span></h4><p>Kafka •</p>
-<h4 id="monitoring-and-observability" class="relative group">Monitoring and Observability <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monitoring-and-observability" aria-label="Anchor">#</a></span></h4><p>Prometheus • Grafana</p>
-<h4 id="other-tools" class="relative group">Other Tools <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#other-tools" aria-label="Anchor">#</a></span></h4><p>Kubernetes • Docker • Git</p>
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#technical-summary">Technical Summary</a></li>
+    <li><a href="#programming-languages">Programming Languages</a></li>
+    <li><a href="#operating-systems">Operating Systems</a></li>
+    <li><a href="#technolgies">Technolgies</a></li>
+    <li><a href="#disciplines">Disciplines</a></li>
+    <li><a href="#work-experience">Work Experience</a>
+      <ul>
+        <li><a href="#deka">DEKA</a></li>
+        <li><a href="#ursa-major">Ursa Major</a></li>
+        <li><a href="#kratos">Kratos</a></li>
+        <li><a href="#nask">NASK</a></li>
+      </ul>
+    </li>
+    <li><a href="#project-experience">Project Experience</a>
+      <ul>
+        <li><a href="#nasa-student-luanch">NASA Student Luanch</a></li>
+        <li><a href="#power-supplies">Power Supplies</a></li>
+        <li><a href="#server-rack">Server Rack</a></li>
+      </ul>
+    </li>
+    <li><a href="#honors-and-awards">Honors and Awards</a>
+      <ul>
+        <li><a href="#student-representative-to-univerity-presidental-comitte">Student Representative to Univerity Presidental Comitte</a></li>
+        <li><a href="#most-valuable-competition-team-member">Most Valuable Competition Team Member</a></li>
+        <li><a href="#outstanding-student-leader-award">Outstanding Student Leader Award</a></li>
+        <li><a href="#first-robotics-woodie-flowers-mentor-award">FIRST Robotics Woodie Flowers Mentor Award</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
 
+          </div>
+        </div>
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <!-- ![Ah Huddersfield](images/cycling-collage.PNG "Some lovely Huddersfield hills, one of the trusty bikes!") -->
+<p>I&rsquo;m an engineer with an electrical background and years of practical, hands on software development experience. While pursing Electrical Engineering from <a href="https://rose-hulman.edu" target="_blank" rel="noreferrer">Rose-Hulman Institute of Technology</a> I founded and led a natioanlly competitive rocketry program, architectured and built an enterprise server rack for my peers, organized a funding campaing to bring $100,000+ to the univeristy <a href="https://firstinspires.org" target="_blank" rel="noreferrer">Innovation Center</a>, devoted 1000&rsquo;s of hours to mentoring <a href="https://firstinspires.org" target="_blank" rel="noreferrer">FIRST</a> robotics programs, and worked 15 hr/week to support myself through school. Throughout these endoviors, I was nominated and awarded mulitple <a href="#honors-and-awards">reconignations of honor</a> for my work either, character, and impact on those around me.</p>
+<h2 id="technical-summary" class="relative group">Technical Summary <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#technical-summary" aria-label="Anchor">#</a></span></h2><h2 id="programming-languages" class="relative group">Programming Languages <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#programming-languages" aria-label="Anchor">#</a></span></h2><p>Java • Python • C • Matlab • Labview</p>
+<h2 id="operating-systems" class="relative group">Operating Systems <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#operating-systems" aria-label="Anchor">#</a></span></h2><p>Linux (Ubuntu, CentOS, Fedora) • Windows • WSL • MacOS</p>
+<h2 id="technolgies" class="relative group">Technolgies <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#technolgies" aria-label="Anchor">#</a></span></h2><p>Ansible • Kafka • Docker • Kubernetes • Grafana • Prometheus • git •
+Github • CI/CD • ArgoCD • Gitops • Agile • Jira • PSSE • CAN •
+Azure • Micro Services • SPI • TrueNAS • Proxmox</p>
+<h2 id="disciplines" class="relative group">Disciplines <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#disciplines" aria-label="Anchor">#</a></span></h2><p>Computer Networking • Signal Processing • Embedded Systems • PCB Development • Aerospace and Defense</p>
+<h2 id="work-experience" class="relative group">Work Experience <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#work-experience" aria-label="Anchor">#</a></span></h2><h3 id="deka" class="relative group">DEKA <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#deka" aria-label="Anchor">#</a></span></h3><h3 id="ursa-major" class="relative group">Ursa Major <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ursa-major" aria-label="Anchor">#</a></span></h3><h3 id="kratos" class="relative group">Kratos <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#kratos" aria-label="Anchor">#</a></span></h3><h3 id="nask" class="relative group">NASK <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#nask" aria-label="Anchor">#</a></span></h3><h2 id="project-experience" class="relative group">Project Experience <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#project-experience" aria-label="Anchor">#</a></span></h2><h3 id="nasa-student-luanch" class="relative group">NASA Student Luanch <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#nasa-student-luanch" aria-label="Anchor">#</a></span></h3><p>put an overview and link to project page</p>
+<h3 id="power-supplies" class="relative group">Power Supplies <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#power-supplies" aria-label="Anchor">#</a></span></h3><p>put an overview and link to project page</p>
+<h3 id="server-rack" class="relative group">Server Rack <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#server-rack" aria-label="Anchor">#</a></span></h3><p>put an overview and link to project page</p>
+<h2 id="honors-and-awards" class="relative group">Honors and Awards <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#honors-and-awards" aria-label="Anchor">#</a></span></h2><h3 id="student-representative-to-univerity-presidental-comitte" class="relative group">Student Representative to Univerity Presidental Comitte <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#student-representative-to-univerity-presidental-comitte" aria-label="Anchor">#</a></span></h3><h3 id="most-valuable-competition-team-member" class="relative group">Most Valuable Competition Team Member <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#most-valuable-competition-team-member" aria-label="Anchor">#</a></span></h3><h3 id="outstanding-student-leader-award" class="relative group">Outstanding Student Leader Award <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#outstanding-student-leader-award" aria-label="Anchor">#</a></span></h3><h3 id="first-robotics-woodie-flowers-mentor-award" class="relative group">FIRST Robotics Woodie Flowers Mentor Award <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#first-robotics-woodie-flowers-mentor-award" aria-label="Anchor">#</a></span></h3>
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">

@@ -20,10 +20,10 @@
 #   pageRef = "categories"
 #   weight = 20
 
-# [[main]]
-# name = "About"
-# pageRef = "about/index"
-# weight = 20
+[[main]]
+name = "About"
+pageRef = "about/index"
+weight = 20
 
 [[main]]
 name = "Resume"
