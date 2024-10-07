@@ -72,7 +72,7 @@
     name="description"
     content="
       
-        
+        Blending wood working and electronics
       
     "
   />
@@ -97,7 +97,7 @@
   <meta property="og:url" content="http://localhost:1313/projects/light-up-engraved-wood-logo/">
   <meta property="og:site_name" content="Garrett Hart">
   <meta property="og:title" content="Light Up Engraved Wooden Logo">
-  <meta property="og:description" content="Garrett Hart Website">
+  <meta property="og:description" content="Blending wood working and electronics">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -107,7 +107,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Light Up Engraved Wooden Logo">
-  <meta name="twitter:description" content="Garrett Hart Website">
+  <meta name="twitter:description" content="Blending wood working and electronics">
 
   
   <script type="application/ld+json">
@@ -118,7 +118,7 @@
     "name": "Light Up Engraved Wooden Logo",
     "headline": "Light Up Engraved Wooden Logo",
     
-    
+    "abstract": "Blending wood working and electronics",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/projects\/light-up-engraved-wood-logo\/",
     "author" : {
@@ -134,7 +134,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "89"
+    "wordCount": "326"
   }
   </script>
     
@@ -415,7 +415,98 @@
         </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>During college I took an intro to switching power supplies course as an elective. During the 10 week period, my lab partner and I designed and built a linear PSU (120V AC -&gt; 15V DC), a boost converter (12-14V -&gt; 25V), and a buck boost converter (12-14V -&gt; -25V). This was a very hands on course which tought me many practical skills. My biggest take away from this course was the impact of layout on the performance of a circuit, or even if the circuit works at all.</p>
+        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>I wanted to make a christmas gift for some family members and I came up with this. My roommate had designed this maple leaf with our school logo in the center for the school to 3D print and give out. I thought it would be really cool to waterjet the leaf out of metal and paint it. And then the idea snowballed from there&hellip; What I ended up with was a combination of an electrical and woodworking project. Part of what made this a cool project was how many tools I got to use making it: waterjet, table router, hand router, sand blaster, soldering tools, lab bench supplies, etc.
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+  
+  <figure class="mx-auto my-0 rounded-md">
+    <img src="images/rose-leaf-1.jpeg" alt="" class="mx-auto my-0 rounded-md"/>
+    
+  </figure>
+
+</p>
+<p>I did change from a 2K resistor for the LEDS. My batteries ended up giving me around a 6V supply. The LEDS are not at full brightness because there are 8 of them. But, that&rsquo;s ok for this project. Dimmer is actually better for what I wanted.</p>
+<p>
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu16317234481788225407.webp 330w,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu10489530977334264565.webp 660w
+            
+              ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu15072539555755385772.webp 1024w
+            
+            
+              ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu16041478502089375049.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="1536"
+        height="2040"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu13510642730392617084.jpeg"
+          srcset="/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu641002237328249500.jpeg 330w,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu13510642730392617084.jpeg 660w
+          
+            ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu2802463743779581393.jpeg 1024w
+          
+          
+            ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu12952426141976941480.jpeg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    
+  </figure>
+
+
+I used a simple RC circuit to hold the base of a mosfet on to keep the LEDS on. There is a small button routed into the side of the wood, where the black paint is on the left of this image. Knowing the time constant, tau, is RC, and that in 4 tau a circuit will charge to, or discharge to, ~98% of its final value, I found a RC pair that got me a few seconds of on time as a starting value. I played with the values on a breadboard from there to see what values I liked. Because the charge and discharge is exponential the lights ended up with a nice fade effect too.</p>
+<p>The hardest part of this mini project ended up being the batteries! Making a battery holder was surprisingly difficult! Not it theory, but in practice&hellip; I also tried to make a diffuser for the LEDS by putting a layer of epoxy in front of them. This worked ok but not great.</p>
 
       </div>
     </section>

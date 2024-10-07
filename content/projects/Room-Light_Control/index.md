@@ -9,7 +9,7 @@ showReadingTime: false
 showTableOfContents: true
 showSummary: True
 # layout: simple
-# summary: "E"
+summary: "Latching transitor circuit for light control"
 ---
 
 # Overview
