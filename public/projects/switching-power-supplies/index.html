@@ -72,7 +72,7 @@
     name="description"
     content="
       
-        
+        A boost and buckboost power supply
       
     "
   />
@@ -97,7 +97,7 @@
   <meta property="og:url" content="http://localhost:1313/projects/switching-power-supplies/">
   <meta property="og:site_name" content="Garrett Hart">
   <meta property="og:title" content="Switching Power Supples">
-  <meta property="og:description" content="Garrett Hart Website">
+  <meta property="og:description" content="A boost and buckboost power supply">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -107,7 +107,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Switching Power Supples">
-  <meta name="twitter:description" content="Garrett Hart Website">
+  <meta name="twitter:description" content="A boost and buckboost power supply">
 
   
   <script type="application/ld+json">
@@ -118,7 +118,7 @@
     "name": "Switching Power Supples",
     "headline": "Switching Power Supples",
     
-    
+    "abstract": "A boost and buckboost power supply",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/projects\/switching-power-supplies\/",
     "author" : {
@@ -134,7 +134,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "95"
+    "wordCount": "493"
   }
   </script>
     
@@ -394,9 +394,31 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#boost-converter">Boost Converter</a></li>
+    <li><a href="#buck-converter">Buck Converter</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>During college I took an intro to switching power supplies course as an elective. During the 10 week period, my lab partner and I designed and built a linear PSU (120V AC -&gt; 15V DC), a boost converter (12-14V -&gt; 25V), and a buck boost converter (12-14V -&gt; -25V). This was a very hands on course which tought me many practical skills. My biggest take away from this course was the impact of layout on the performance of a circuit, or even if the circuit works at all.</p>
-<h1 id="boost-converter" class="relative group">Boost Converter <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#boost-converter" aria-label="Anchor">#</a></span></h1>
+        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>During college I took an elective on switching power supplies. During the 10 week period, my lab partner and I designed and built a linear power supply (120V AC -&gt; 15V DC), a boost converter (12-14V -&gt; 25V), and a buck boost converter (12-14V -&gt; -25V). This was a very hands on course which tought me many practical skills. My biggest take away from this course was the impact of layout on the performance of a circuit, or even if the circuit works at all.</p>
+<h1 id="boost-converter" class="relative group">Boost Converter <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#boost-converter" aria-label="Anchor">#</a></span></h1><p>
   
   
   
@@ -466,7 +488,365 @@
   </figure>
 
 
-<h1 id="buck-converter" class="relative group">Buck Converter <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#buck-converter" aria-label="Anchor">#</a></span></h1>
+A boost converter I built in 2023 for a power supply course. The converter is built for 12-14V in and 25V out at 2A. During this course I also built a 120V AC-DC linear power supply, also rated for 25V at 2A.</p>
+<p>
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/switching-power-supplies/images/boost-converter-bottom_hu8980173252469597948.webp 330w,/projects/switching-power-supplies/images/boost-converter-bottom_hu12397889879539456930.webp 660w
+            
+              ,/projects/switching-power-supplies/images/boost-converter-bottom_hu13921049561951672010.webp 1024w
+            
+            
+              ,/projects/switching-power-supplies/images/boost-converter-bottom_hu12143462889758027569.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="1536"
+        height="2040"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/switching-power-supplies/images/boost-converter-bottom_hu9911361174667973107.jpeg"
+          srcset="/projects/switching-power-supplies/images/boost-converter-bottom_hu12511511769568363831.jpeg 330w,/projects/switching-power-supplies/images/boost-converter-bottom_hu9911361174667973107.jpeg 660w
+          
+            ,/projects/switching-power-supplies/images/boost-converter-bottom_hu15973872379425977312.jpeg 1024w
+          
+          
+            ,/projects/switching-power-supplies/images/boost-converter-bottom_hu16467225504784763365.jpeg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    
+  </figure>
+
+
+Shown here is the bottom of the boost converter. We used wire wrapping instead of soldering for any non-high current connections. This largely due to preference of the instructor, but it was a nice skill to learn and definitely had some advantages during debugging with easily being able to unwrap a pin on an IC.</p>
+<p>
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/switching-power-supplies/images/boost-converter-schematic_hu17050831789190685762.webp 330w,/projects/switching-power-supplies/images/boost-converter-schematic_hu10261260097534582661.webp 660w
+            
+              ,/projects/switching-power-supplies/images/boost-converter-schematic_hu6554753254226856069.webp 1024w
+            
+            
+              ,/projects/switching-power-supplies/images/boost-converter-schematic_hu7201954573685705369.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="1638"
+        height="1213"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/switching-power-supplies/images/boost-converter-schematic_hu5415664752360619113.jpeg"
+          srcset="/projects/switching-power-supplies/images/boost-converter-schematic_hu14215000171433722762.jpeg 330w,/projects/switching-power-supplies/images/boost-converter-schematic_hu5415664752360619113.jpeg 660w
+          
+            ,/projects/switching-power-supplies/images/boost-converter-schematic_hu15535637769855226838.jpeg 1024w
+          
+          
+            ,/projects/switching-power-supplies/images/boost-converter-schematic_hu13643733802510425126.jpeg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    
+  </figure>
+
+
+Here is my annotated schematic for the boost converter. For this course we were taught the theory and operation of various power supply typologies and then had to go actually design and build them. Although we were provided the schematic for the labs, this was to speed up the lab process to complete building three power supplies in 10 weeks. Most parts were calculated and then picked by the students, as seen by the empty part values on the schematic. I used mathcad and some equations for a boost converter, along with IC datasheets, to pick components to guarantee output ripple, output voltage and switching time.</p>
+<h1 id="buck-converter" class="relative group">Buck Converter <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#buck-converter" aria-label="Anchor">#</a></span></h1><p>
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/switching-power-supplies/images/buck-boost-converter_hu11633015691525574474.webp 330w,/projects/switching-power-supplies/images/buck-boost-converter_hu13711584953509285975.webp 660w
+            
+              ,/projects/switching-power-supplies/images/buck-boost-converter_hu762926788729561241.webp 1024w
+            
+            
+              ,/projects/switching-power-supplies/images/buck-boost-converter_hu9960822515819553098.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="3072"
+        height="2967"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/switching-power-supplies/images/buck-boost-converter_hu13872280252793715670.jpeg"
+          srcset="/projects/switching-power-supplies/images/buck-boost-converter_hu758958167982192840.jpeg 330w,/projects/switching-power-supplies/images/buck-boost-converter_hu13872280252793715670.jpeg 660w
+          
+            ,/projects/switching-power-supplies/images/buck-boost-converter_hu15764207426426500616.jpeg 1024w
+          
+          
+            ,/projects/switching-power-supplies/images/buck-boost-converter_hu16774987680430895127.jpeg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    
+  </figure>
+
+
+The third power supply I built was a buck-boost converter for 12-14V in and -25V out at 2A.</p>
+<p>
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu3437725084480472182.webp 330w,/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu17218687705542647676.webp 660w
+            
+              ,/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu11833471543736850721.webp 1024w
+            
+            
+              ,/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu17499908333699459733.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="1536"
+        height="1677"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu14253820433325118371.jpeg"
+          srcset="/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu11760707279311529541.jpeg 330w,/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu14253820433325118371.jpeg 660w
+          
+            ,/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu16124360686506289956.jpeg 1024w
+          
+          
+            ,/projects/switching-power-supplies/images/buck-boost-converter-bottom_hu7530250586405860055.jpeg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    
+  </figure>
+
+
+Shown here is the bottom of the buck-boost supply. Something that I learned from this project was the careful consideration for the physical construction of a switching power supply. Specifically, the need to minimize the area of the two high current loops on the input and output because of their ability to create lots of EMI. This was actually an issue for my power supply that was hard to debug. The issue was that there was so much noise being generated that the current sense wire on the SG2535A would pick up the noise and trigger the current limit, a pulse-by-pulse current limit, turning off the gate driver for that pulse and turning off the power supply output.</p>
+<p>
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/switching-power-supplies/images/buck-boost-schematic_hu10328578191829647637.webp 330w,/projects/switching-power-supplies/images/buck-boost-schematic_hu5348201542361704665.webp 660w
+            
+              ,/projects/switching-power-supplies/images/buck-boost-schematic_hu8811859187214817949.webp 1024w
+            
+            
+              
+                ,/projects/switching-power-supplies/images/buck-boost-schematic_hu1507719414358647487.webp 1054w
+              
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="1054"
+        height="805"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/switching-power-supplies/images/buck-boost-schematic_hu15231030671920665927.png"
+          srcset="/projects/switching-power-supplies/images/buck-boost-schematic_hu5609790567767072539.png 330w,/projects/switching-power-supplies/images/buck-boost-schematic_hu15231030671920665927.png 660w
+          
+            ,/projects/switching-power-supplies/images/buck-boost-schematic_hu2777957940026119819.png 1024w
+          
+          
+            ,/projects/switching-power-supplies/images/buck-boost-schematic.png 1054w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    
+  </figure>
+
+
+Here is the schematic for the buck-bojpegost converter. Unfortunately, I&rsquo;ve lost my annotated notes for this power supply. This power supply I actually struggled to get  the last piece working (the -12V inverting charge pump shown in the middle right). The charge pump is driven by a 555 timer and is used to supply the negative rail to the LM324 op amp.</p>
+
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">

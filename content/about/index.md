@@ -19,34 +19,75 @@ While pursing my Electrical Enigneering degree from [Rose-Hulman Institute of Te
 | 
 ------------ | -------------
 **Programming Languages** | Java &bull; Python &bull; C &bull; Matlab &bull; Labview
-**Operating Systems**  |  Linux (Ubuntu, CentOS, Fedora) &bull; Windows &bull; WSL &bull; MacOS
+**Operating Systems**  |  Linux &bull; Windows &bull; WSL &bull; MacOS
 **Developer Tools** | Git &bull; Github &bull; Deveops / Gitops &bull; CI/CD &bull; Agile &bull; Jira &bull; Azure Could Platform
 **Software Technologies** | Docker &bull; Kubernetes &bull; Kafka &bull; Grafana &bull; Prometheus &bull; Ansible &bull; TrueNAS &bull; ArgoCD
 **Other Technologies** | PTI/PSSE &bull; CAN &bull; Soldering &bull; Altium Designer
-**Disciplines** | Computer Networking &bull; Signal Processing &bull; Embedded Systems &bull; PCB Development &bull; Aerospace and Defense
-
+**Disciplines** | Computer Networking &bull; Signal Processing &bull; Embedded Systems &bull; PCB Development
 
 ## Work Experience
 
 ### DEKA
 
+<details>
+
+<summary>Expand to learn more!</summary>
+
+</details>
+
 
 ### Ursa Major
 
+<details>
+
+<summary>Expand to learn more!</summary>
+
+</details>
+
 ### Kratos
 
+<details>
+
+<summary>Expand to learn more!</summary>
+
+</details>
+
 ### NASK
+
+<details>
+
+<summary>Expand to learn more!</summary>
+
+</details>
 
 ## Project Experience
 
 ### NASA Student Luanch
+
 put an overview and link to project page
+<details>
+
+<summary>Expand to learn more!</summary>
+
+</details>
 
 ### Power Supplies
+
 put an overview and link to project page
+<details>
+
+<summary>Expand to learn more!</summary>
+
+</details>
 
 ### Server Rack
+
 put an overview and link to project page
+<details>
+
+<summary>Expand to learn more!</summary>
+
+</details>
 
 ## Honors and Awards
 

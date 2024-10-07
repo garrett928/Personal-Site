@@ -134,7 +134,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "2"
+    "wordCount": "172"
   }
   </script>
     
@@ -394,8 +394,99 @@
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    Table of Contents
+  </summary>
+  <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1>
+        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>This is a CAN bus project I made for a short, 2 week final project. The project goal was to simulate a car can bus with two MCU&rsquo;s. One MCU read sensor input and sent it over the CAN bus. The other read data from the CAN bus and displayed the status of the sensors. I wrote a SPI driver for the texas instruments board, because it lacked a CAN peripheral onboard, a library using my SPI driver for a SPI to CAN controller, a CAN driver for a STM32 board, and application code for each MCU (including configuring all the peripheral registers, interrupts, ADCs, and timers). In this image I am verifying my library for the SPI to CAN controller. Specifically, I am looking at SPI frames coming from my library and comparing them against the controllers datasheet. I have an arduino connected with the same controller on the CAN bus running a known, good and tested library to verify if my library was sending and receiving CAN messages correctly.
+
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu2438504856254989887.webp 330w,/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu2751208807235709466.webp 660w
+            
+              ,/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu8931643311185050515.webp 1024w
+            
+            
+              ,/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu5820736438838706982.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="1440"
+        height="1883"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu7520577381133502662.jpeg"
+          srcset="/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu1104619093378415967.jpeg 330w,/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu7520577381133502662.jpeg 660w
+          
+            ,/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu1574640868521532027.jpeg 1024w
+          
+          
+            ,/projects/simulated-car-can-bus/images/simulated-car-CAN-bus_hu5924450958089703913.jpeg 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+
+    
+  </figure>
+
+</p>
+
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
