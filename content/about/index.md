@@ -64,30 +64,21 @@ While pursing my Electrical Enigneering degree from [Rose-Hulman Institute of Te
 
 ### NASA Student Luanch
 
-put an overview and link to project page
-<details>
+&bull; Established Rose-Hulman’s first rocketry competition team, growing to 40 active students within two years  
+&bull; Logged 1000+ hours of design and fabrication work in less than 2 years while enrolled full time and working 15-20 hr/wk  
+&bull; Presented complex technical information to a panel of NASA engineers through a series of 3 design reviews per year
 
-<summary>Expand to learn more!</summary>
 
-</details>
+### Switching Power Supplies
 
-### Power Supplies
-
-put an overview and link to project page
-<details>
-
-<summary>Expand to learn more!</summary>
-
-</details>
+[Project Page]({{< ref "/projects/switching-power-supplies" >}})  
+&bull; Designed a built a boost converter 12-14V → 25V, 50W  
+&bull; Designed and built a buck-boost converter 12-14V → -25V, 50W
 
 ### Server Rack
-
-put an overview and link to project page
-<details>
-
-<summary>Expand to learn more!</summary>
-
-</details>
+<!-- [Project Page]({{< ref "/projects/switching-power-supplies" >}})   -->
+&bull; Architected, deployed, and maintained a server solution to 300+ student peers to accelerate engineering design cycles  
+&bull; Specifications: ~400 CPU cores, 2TB RAM, and 40TB NAS
 
 ## Honors and Awards
 
