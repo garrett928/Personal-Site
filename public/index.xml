@@ -30,6 +30,13 @@
       <description>A boost and buckboost power supply</description>
     </item>
     <item>
+      <title>NASA Student Launch</title>
+      <link>http://localhost:1313/projects/nasa-student-launch/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nasa-student-launch/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Room Light Control Circuit</title>
       <link>http://localhost:1313/projects/room-light_control/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
