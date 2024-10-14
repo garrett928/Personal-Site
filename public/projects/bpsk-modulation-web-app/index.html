@@ -17,8 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
   
-  <title>Light Up Engraved Wooden Logo &middot; Garrett Hart</title>
-    <meta name="title" content="Light Up Engraved Wooden Logo &middot; Garrett Hart" />
+  <title>BPSK Gaussian Noise Simulation Webapp &middot; Garrett Hart</title>
+    <meta name="title" content="BPSK Gaussian Noise Simulation Webapp &middot; Garrett Hart" />
   
   
   
@@ -72,14 +72,14 @@
     name="description"
     content="
       
-        Blending wood working and electronics
+        Simple webapp demonstrating BPSK modulation and demodulation
       
     "
   />
   
   
   
-  <link rel="canonical" href="http://localhost:1313/projects/light-up-engraved-wood-logo/" />
+  <link rel="canonical" href="http://localhost:1313/projects/bpsk-modulation-web-app/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -94,20 +94,22 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/projects/light-up-engraved-wood-logo/">
+  <meta property="og:url" content="http://localhost:1313/projects/bpsk-modulation-web-app/">
   <meta property="og:site_name" content="Garrett Hart">
-  <meta property="og:title" content="Light Up Engraved Wooden Logo">
-  <meta property="og:description" content="Blending wood working and electronics">
+  <meta property="og:title" content="BPSK Gaussian Noise Simulation Webapp">
+  <meta property="og:description" content="Simple webapp demonstrating BPSK modulation and demodulation">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
-    <meta property="article:published_time" content="2023-12-12T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-12-12T00:00:00+00:00">
+    <meta property="article:published_time" content="2023-11-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-11-23T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/projects/bpsk-modulation-web-app/thumbnail.png">
 
   
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Light Up Engraved Wooden Logo">
-  <meta name="twitter:description" content="Blending wood working and electronics">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/projects/bpsk-modulation-web-app/thumbnail.png">
+  <meta name="twitter:title" content="BPSK Gaussian Noise Simulation Webapp">
+  <meta name="twitter:description" content="Simple webapp demonstrating BPSK modulation and demodulation">
 
   
   <script type="application/ld+json">
@@ -115,26 +117,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Projects",
-    "name": "Light Up Engraved Wooden Logo",
-    "headline": "Light Up Engraved Wooden Logo",
+    "name": "BPSK Gaussian Noise Simulation Webapp",
+    "headline": "BPSK Gaussian Noise Simulation Webapp",
     
-    "abstract": "Blending wood working and electronics",
+    "abstract": "Simple webapp demonstrating BPSK modulation and demodulation",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/projects\/light-up-engraved-wood-logo\/",
+    "url" : "http:\/\/localhost:1313\/projects\/bpsk-modulation-web-app\/",
     "author" : {
       "@type": "Person",
       "name": "Garrett Hart"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-12-12T00:00:00\u002b00:00",
-    "datePublished": "2023-12-12T00:00:00\u002b00:00",
+    "dateCreated": "2023-11-23T00:00:00\u002b00:00",
+    "datePublished": "2023-11-23T00:00:00\u002b00:00",
     
-    "dateModified": "2023-12-12T00:00:00\u002b00:00",
+    "dateModified": "2023-11-23T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "326"
+    "wordCount": "408"
   }
   </script>
     
@@ -157,7 +159,7 @@
      },
      {
        "@type": "ListItem",
-       "name": "Light Up Engraved Wooden Logo",
+       "name": "Bpsk Gaussian Noise Simulation Webapp",
        "position": 3
      }
    ]
@@ -333,8 +335,8 @@
   <li class="hidden inline">
     <a
       class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
-      href="/projects/light-up-engraved-wood-logo/"
-      >Light Up Engraved Wooden Logo</a
+      href="/projects/bpsk-modulation-web-app/"
+      >BPSK Gaussian Noise Simulation Webapp</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -343,7 +345,7 @@
 
       
       <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Light Up Engraved Wooden Logo
+        BPSK Gaussian Noise Simulation Webapp
       </h1>
       
         <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
@@ -377,7 +379,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-12-12 00:00:00 &#43;0000 UTC">Tue December 12, 2023</time>
+      <time datetime="2023-11-23 00:00:00 &#43;0000 UTC">Thu November 23, 2023</time>
     
 
     
@@ -406,6 +408,16 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#overview">Overview</a></li>
+    <li><a href="#repo-files">Repo Files</a></li>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#env">ENV</a></li>
+        <li><a href="#build-docker">Build Docker</a></li>
+        <li><a href="#run-docker">Run Docker</a></li>
+      </ul>
+    </li>
+    <li><a href="#useful-resources">Useful Resources</a></li>
+    <li><a href="#example">Example</a></li>
   </ul>
 </nav>
   </div>
@@ -415,27 +427,10 @@
         </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>I wanted to make a christmas gift for some family members and I came up with this. My roommate had designed this maple leaf with our school logo in the center for the school to 3D print and give out. I thought it would be really cool to waterjet the leaf out of metal and paint it. And then the idea snowballed from there&hellip; What I ended up with was a combination of an electrical and woodworking project. Part of what made this a cool project was how many tools I got to use making it: waterjet, table router, hand router, sand blaster, soldering tools, lab bench supplies, etc.
-
-  
-  
-  
-  
-  
-
-  
-  
-    
-    
-  
-  <figure class="mx-auto my-0 rounded-md">
-    <img src="images/rose-leaf-1.jpeg" alt="" class="mx-auto my-0 rounded-md"/>
-    
-  </figure>
-
-</p>
-<p>I did change from a 2K resistor for the LEDS. My batteries ended up giving me around a 6V supply. The LEDS are not at full brightness because there are 8 of them. But, that&rsquo;s ok for this project. Dimmer is actually better for what I wanted.</p>
-<p>
+        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><table>
+<thead>
+<tr>
+<th>
   
   
   
@@ -445,7 +440,7 @@
   
   
   <figure class="mx-auto my-0 rounded-md">
-    
+    <a href="https://github.com/garrett928/HigherGroundHW/blob/main/example_use.png">
       
       
 
@@ -467,12 +462,12 @@
       
         <source
           
-            srcset="/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu16317234481788225407.webp 330w,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu10489530977334264565.webp 660w
+            srcset="/projects/bpsk-modulation-web-app/images/example_use_hu3753687864921092324.webp 330w,/projects/bpsk-modulation-web-app/images/example_use_hu15567266264219678330.webp 660w
             
-              ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu15072539555755385772.webp 1024w
+              ,/projects/bpsk-modulation-web-app/images/example_use_hu1978205103186413045.webp 1024w
             
             
-              ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu16041478502089375049.webp 1320w
+              ,/projects/bpsk-modulation-web-app/images/example_use_hu5325529988950196702.webp 1320w
             "
           
           sizes="100vw"
@@ -480,19 +475,19 @@
         />
       
       <img
-        width="1536"
-        height="2040"
+        width="1441"
+        height="546"
         class="mx-auto my-0 rounded-md"
         
         loading="lazy" decoding="async"
         
-          src="/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu13510642730392617084.jpeg"
-          srcset="/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu641002237328249500.jpeg 330w,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu13510642730392617084.jpeg 660w
+          src="/projects/bpsk-modulation-web-app/images/example_use_hu15535609389028691673.png"
+          srcset="/projects/bpsk-modulation-web-app/images/example_use_hu4080166647686280129.png 330w,/projects/bpsk-modulation-web-app/images/example_use_hu15535609389028691673.png 660w
           
-            ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu2802463743779581393.jpeg 1024w
+            ,/projects/bpsk-modulation-web-app/images/example_use_hu11228147995844154444.png 1024w
           
           
-            ,/projects/light-up-engraved-wood-logo/images/rose-leaf-2_hu12952426141976941480.jpeg 1320w
+            ,/projects/bpsk-modulation-web-app/images/example_use_hu1835386025307031984.png 1320w
           "
           sizes="100vw"
         
@@ -500,13 +495,127 @@
     </picture>
   
 
+</a>
+    
+  </figure>
 
+</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+  <span class="icon relative inline-block align-text-bottom">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+ <a href="https://github.com/garrett928/HigherGroundHW/tree/main" target="_blank" rel="noreferrer">View the project on my github! </a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Some homework problems for an interview with Higher Ground LLC.</p>
+<p>This started as a mini homework assignment but turned into a cool mini-project. I did some  BPSK modulation and demodulation and plotted its IQ constellation. I threw this all into a flask app to visualize it. I added the abilty to put AWGN onto the modulated data to make it a little less boring and not a perfect bpsk IQ. You can asjust the power of the noise on the web page too. I experimented with using chatgpt to generate the flask app for me. I did this for a couple reasons. First, this was an extra feature on top of the assignment so I did not subtract from its purpose or integruity. Second, I&rsquo;m taking a course on deep learning right now, and it&rsquo;s timely relavent for me to use chatgpt and get a better feel for how to feed it good prompts. I&rsquo;m also trying to gain some intuition for its behavior. My final project in that class is using the chatgpt api to make a calendar planning / scheduling assistant. So, this allowed me to both play with chatgpt more and also add a cool feature to this project. Lastly, I though this all in docker, both to answer part of the homework for higher ground and because it was quick and easy. I&rsquo;ve worked with docker a lot the past couple summers at my jobs, and at home in my homelab.</p>
+<h1 id="repo-files" class="relative group">Repo Files <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#repo-files" aria-label="Anchor">#</a></span></h1><pre tabindex="0"><code>app  
+    app.py  (Flask web app with the HTML page embedded in it. Renders the website)  
+    utilities.py  (DSP functions which are called by the flask app to modulate, demodulate, and plot)  
+README.md  
+Dockerfile  
+requirements.txt  
+.gitignore  
+</code></pre><h1 id="usage" class="relative group">Usage <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#usage" aria-label="Anchor">#</a></span></h1><h2 id="env" class="relative group">ENV <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#env" aria-label="Anchor">#</a></span></h2><p>Setup a python environment to keep your local environment clean.</p>
+<ol>
+<li><code>virtualenv ./env</code></li>
+<li><code>source ./env/bin/activate</code></li>
+<li><code>pip install -r requirements.txt</code></li>
+</ol>
+<h2 id="build-docker" class="relative group">Build Docker <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#build-docker" aria-label="Anchor">#</a></span></h2><ol>
+<li><code>docker build --tag bpsk .</code></li>
+<li>check the image exist with <code>docker iamages</code></li>
+</ol>
+<h2 id="run-docker" class="relative group">Run Docker <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#run-docker" aria-label="Anchor">#</a></span></h2><ol>
+<li><code>docker run -p 5000:5000 bpsk</code></li>
+</ol>
+<h1 id="useful-resources" class="relative group">Useful Resources <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#useful-resources" aria-label="Anchor">#</a></span></h1><p>I knew the background of a lot of this before doing this project but I had not written any code to handle of this before. Even still, I found the docs for pysdy to be super well written and easy to follow. Definitly worth a read!</p>
+<ol>
+<li><a href="https://pysdr.org/content/digital_modulation.html" target="_blank" rel="noreferrer">pysdr modulation</a></li>
+<li><a href="https://pysdr.org/content/sampling.html" target="_blank" rel="noreferrer">pysdr IQ sampling</a></li>
+<li><a href="https://pysdr.org/content/pulse_shaping.html" target="_blank" rel="noreferrer">pysdr pulse shaping</a> not as related but also good read</li>
+<li><a href="https://pysdr.org/content/link_budgets.html" target="_blank" rel="noreferrer">pysdr link budget</a> related to the paper in the attached pdf</li>
+</ol>
+<h1 id="example" class="relative group">Example <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#example" aria-label="Anchor">#</a></span></h1>
+  
+  
+  
+  
+  
+
+  
+  
+  <figure class="mx-auto my-0 rounded-md">
+    <a href="https://github.com/garrett928/HigherGroundHW/blob/main/example_use.png">
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            srcset="/projects/bpsk-modulation-web-app/images/example_use_hu3753687864921092324.webp 330w,/projects/bpsk-modulation-web-app/images/example_use_hu15567266264219678330.webp 660w
+            
+              ,/projects/bpsk-modulation-web-app/images/example_use_hu1978205103186413045.webp 1024w
+            
+            
+              ,/projects/bpsk-modulation-web-app/images/example_use_hu5325529988950196702.webp 1320w
+            "
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="1441"
+        height="546"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/bpsk-modulation-web-app/images/example_use_hu15535609389028691673.png"
+          srcset="/projects/bpsk-modulation-web-app/images/example_use_hu4080166647686280129.png 330w,/projects/bpsk-modulation-web-app/images/example_use_hu15535609389028691673.png 660w
+          
+            ,/projects/bpsk-modulation-web-app/images/example_use_hu11228147995844154444.png 1024w
+          
+          
+            ,/projects/bpsk-modulation-web-app/images/example_use_hu1835386025307031984.png 1320w
+          "
+          sizes="100vw"
+        
+      />
+    </picture>
+  
+
+</a>
     
   </figure>
 
 
-I used a simple RC circuit to hold the base of a mosfet on to keep the LEDS on. There is a small button routed into the side of the wood, where the black paint is on the left of this image. Knowing the time constant, tau, is RC, and that in 4 tau a circuit will charge to, or discharge to, ~98% of its final value, I found a RC pair that got me a few seconds of on time as a starting value. I played with the values on a breadboard from there to see what values I liked. Because the charge and discharge is exponential the lights ended up with a nice fade effect too.</p>
-<p>The hardest part of this mini project ended up being the batteries! Making a battery holder was surprisingly difficult! Not it theory, but in practice&hellip; I also tried to make a diffuser for the LEDS by putting a layer of epoxy in front of them. This worked ok but not great.</p>
 
       </div>
     </section>
@@ -626,7 +735,7 @@ I used a simple RC circuit to hold the base of a mosfet on to keep the LEDS on. 
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/projects/bpsk-modulation-web-app/">
+            <a class="group flex" href="/projects/switching-power-supplies/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
@@ -635,11 +744,11 @@ I used a simple RC circuit to hold the base of a mosfet on to keep the LEDS on. 
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >BPSK Gaussian Noise Simulation Webapp</span
+                  >Switching Power Supples</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-11-23 00:00:00 &#43;0000 UTC">Thu November 23, 2023</time>
+                    <time datetime="2023-09-10 00:00:00 &#43;0000 UTC">Sun September 10, 2023</time>
                   
                 </span>
               </span>
@@ -647,6 +756,25 @@ I used a simple RC circuit to hold the base of a mosfet on to keep the LEDS on. 
           
         </span>
         <span>
+          
+            <a class="group flex text-right" href="/projects/light-up-engraved-wood-logo/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Light Up Engraved Wooden Logo</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-12-12 00:00:00 &#43;0000 UTC">Tue December 12, 2023</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
           
         </span>
       </div>

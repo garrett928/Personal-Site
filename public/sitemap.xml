@@ -25,6 +25,13 @@
   
     
       <url>
+            <loc>http://localhost:1313/projects/bpsk-modulation-web-app/</loc>
+            <lastmod>2023-11-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/projects/simulated-car-can-bus/</loc>
             <lastmod>2023-09-10T00:00:00+00:00</lastmod>
           </url>
@@ -34,13 +41,6 @@
       <url>
             <loc>http://localhost:1313/projects/switching-power-supplies/</loc>
             <lastmod>2023-09-10T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/projects/nasa-student-launch/</loc>
-            <lastmod>2020-02-14T00:00:00+00:00</lastmod>
           </url>
     
   
