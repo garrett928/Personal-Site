@@ -26,7 +26,7 @@ This started as a mini homework assignment but turned into a cool mini-project. 
 app  
     app.py  (Flask web app with the HTML page embedded in it. Renders the website)  
     utilities.py  (DSP functions which are called by the flask app to modulate, demodulate, and plot)  
-README.md  
+README.md   
 Dockerfile  
 requirements.txt  
 .gitignore  
