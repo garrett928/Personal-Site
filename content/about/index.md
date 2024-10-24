@@ -71,7 +71,7 @@ Software Engineering Intern | | | | | | Colorado Springs, CO | June 2022 - Sept 
 <summary>Expand to learn more!</summary>
 
 &bull; Worked on a newly formed team of 10 to test bringing new software technologies to market  
-&bull; Integrated existing, internal c++ framework into large python codebase via REST interface  
+&bull; Integrated existing, internal C++ framework into large python codebase via REST interface  
 &bull; Assembled a 4.5 meter parabolic antenna for 40Ghz in the Ka band
 
 </details>
@@ -96,10 +96,10 @@ Software Engineering Intern | | | | | | | | | Dayton, OH | May 2023 - Aug 2024
 :--- | --- | --- | --- | --- | --- | --- | ---|  --- | -------: | ---:
 Core Controls Developer Co-op | | | | | | | | | Dayton, OH | May 2023 - Aug 2024
 
-• Developed a tool capable of logging hundreds of configuration parameters from
+&bull; Developed a tool capable of logging hundreds of configuration parameters from
 several CAN devices automatically to assist manufacturing testing and verification  
-• Worked with several CAN technologies and tool-chains such as CAN open, CCP, vectorCAN, wireshark, socketCAN, and proprietary CAN protocols  
- Built and debugged embedded Linux applications utilizing Buildroot, GDB, and other unix development tools
+&bull; Worked with several CAN technologies and tool-chains such as CAN open, CCP, vectorCAN, wireshark, socketCAN, and proprietary CAN protocols  
+&bull; Built and debugged embedded Linux applications utilizing Buildroot, GDB, and other unix development tools
 
 <!-- <details>
 
