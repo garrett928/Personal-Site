@@ -109,6 +109,12 @@ several CAN devices automatically to assist manufacturing testing and verificati
 
 ## Project Experience
 
+### Car Data Logger
+
+&bull; Developing software stack to collect and monitor car telemetry following a micro-service architecture model  
+&bull; Data is ingested via a dockerized RESTful API powered by Java Spring Boot and visualized via Grafana  
+
+
 ### NASA Student Luanch
 
 &bull; Established Rose-Hulman’s first rocketry competition team, growing to 40 active students within two years  
