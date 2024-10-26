@@ -10,7 +10,7 @@ showTableOfContents: True
 showSummary: True
 draft: true
 # cover: "rocket-laid-out.jpg"
-summary: "Colligant rocketry compeition team founder"
+summary: "collegiate rocketry compeition team founder"
 ---
 
 
