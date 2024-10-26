@@ -6,8 +6,15 @@
     <description>Recent content in Home Page on Garrett Hart</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PiDrive - Car Data Logger</title>
+      <link>http://localhost:1313/projects/pidrive/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/pidrive/</guid>
+      <description>Software stack to collect and monitor car telemetry following a micro-service architecture model</description>
+    </item>
     <item>
       <title>Light Up Engraved Wooden Logo</title>
       <link>http://localhost:1313/projects/light-up-engraved-wood-logo/</link>
@@ -35,6 +42,13 @@
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/simulated-car-can-bus/</guid>
       <description>A simple CAN bus demonstration</description>
+    </item>
+    <item>
+      <title>NASA Student Launch</title>
+      <link>http://localhost:1313/projects/nasa-student-launch/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nasa-student-launch/</guid>
+      <description>Colligant rocketry compeition team founder</description>
     </item>
     <item>
       <title>Room Light Control Circuit</title>

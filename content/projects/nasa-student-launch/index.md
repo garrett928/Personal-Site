@@ -10,7 +10,7 @@ showTableOfContents: True
 showSummary: True
 draft: true
 # cover: "rocket-laid-out.jpg"
-# summary: "A boost and buckboost power supply"
+summary: "Colligant rocketry compeition team founder"
 ---
 
 
