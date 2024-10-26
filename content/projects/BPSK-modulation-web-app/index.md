@@ -9,7 +9,7 @@ showReadingTime: false
 showTableOfContents: true
 showSummary: True
 # layout: simple
-summary: "Simple webapp demonstrating BPSK modulation and demodulation"
+summary: "Simple web app demonstrating BPSK modulation and demodulation"
 ---
 
 # Overview
