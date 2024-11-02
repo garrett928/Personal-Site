@@ -13,7 +13,7 @@
       <link>http://localhost:1313/projects/pidrive/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/pidrive/</guid>
-      <description>Software stack to collect and monitor car telemetry following a micro-service architecture model</description>
+      <description>Car data logging stack with raspberry pi collection front end and Java Spring Boot API backend</description>
     </item>
     <item>
       <title>Light Up Engraved Wooden Logo</title>
@@ -42,13 +42,6 @@
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/simulated-car-can-bus/</guid>
       <description>A simple CAN bus demonstration</description>
-    </item>
-    <item>
-      <title>NASA Student Launch</title>
-      <link>http://localhost:1313/projects/nasa-student-launch/</link>
-      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/nasa-student-launch/</guid>
-      <description>collegiate rocketry compeition team founder</description>
     </item>
     <item>
       <title>Room Light Control Circuit</title>

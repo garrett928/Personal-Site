@@ -72,7 +72,7 @@
     name="description"
     content="
       
-        Software stack to collect and monitor car telemetry following a micro-service architecture model
+        Car data logging stack with raspberry pi collection front end and Java Spring Boot API backend
       
     "
   />
@@ -97,7 +97,7 @@
   <meta property="og:url" content="http://localhost:1313/projects/pidrive/">
   <meta property="og:site_name" content="Garrett Hart">
   <meta property="og:title" content="PiDrive - Car Data Logger">
-  <meta property="og:description" content="Software stack to collect and monitor car telemetry following a micro-service architecture model">
+  <meta property="og:description" content="Car data logging stack with raspberry pi collection front end and Java Spring Boot API backend">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -109,7 +109,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/projects/pidrive/thumbnail.png">
   <meta name="twitter:title" content="PiDrive - Car Data Logger">
-  <meta name="twitter:description" content="Software stack to collect and monitor car telemetry following a micro-service architecture model">
+  <meta name="twitter:description" content="Car data logging stack with raspberry pi collection front end and Java Spring Boot API backend">
 
   
   <script type="application/ld+json">
@@ -120,7 +120,7 @@
     "name": "PiDrive - Car Data Logger",
     "headline": "PiDrive - Car Data Logger",
     
-    "abstract": "Software stack to collect and monitor car telemetry following a micro-service architecture model",
+    "abstract": "Car data logging stack with raspberry pi collection front end and Java Spring Boot API backend",
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/projects\/pidrive\/",
     "author" : {
@@ -136,7 +136,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "124"
+    "wordCount": "519"
   }
   </script>
     
@@ -384,15 +384,6 @@
 
     
     
-      <span class="ps-2"><span class="flex">
-  <span
-    class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    Draft
-  </span>
-</span>
-</span>
-    
   </div>
 
   
@@ -416,7 +407,14 @@
   <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#pi-drive">Pi-Drive</a>
+      <ul>
+        <li><a href="#techologies-used">Techologies Used</a></li>
+      </ul>
+    </li>
     <li><a href="#overview">Overview</a></li>
+    <li><a href="#recreate-the-project">Recreate the project</a></li>
+    <li><a href="#useful-resources">Useful Resources</a></li>
   </ul>
 </nav>
   </div>
@@ -426,7 +424,18 @@
         </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>During my freshman year I wanted a way to turn on and off a set of lights in my room without getting out of bed. Although slightly overkill, I decided to make a latching circuit. This is the prototype of the circuit.<br>
+        <h1 id="pi-drive" class="relative group">Pi-Drive <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#pi-drive" aria-label="Anchor">#</a></span></h1><p>Car data logging stack with raspberry pi collection front end and Java Spring Boot API backend. Every vehical sold in the US since 1996 is required to support the OBD-II protocol. OBD-II is focused on providing emissions data and exposes things like fuel consumption, coolant temperature, vehical speed, engine RPM, etc. This data can be useful for gaining an insight into your cars performance, especially if you have an older car like mine with the check engine light stuck on. The goal of this project is to record as much OBD data as I can and then visualize it in Grafana. I&rsquo;m not a car guy and I&rsquo;m not interested in tuning or getting max performance out of my car. I simply want to monitor its health and properly maintain it. Cars are expensive!</p>
+<h2 id="techologies-used" class="relative group">Techologies Used <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#techologies-used" aria-label="Anchor">#</a></span></h2><ul>
+<li>Java Spring Boot</li>
+<li>RESTFul API</li>
+<li><a href="https://www.influxdata.com/" target="_blank" rel="noreferrer">InfluxDB</a> (Timeseries SQL database)</li>
+<li>Docker</li>
+<li><a href="https://grafana.com/grafana/" target="_blank" rel="noreferrer">Grafana</a> (Visualization)</li>
+<li>Anisble (Automate raspberry pi configuration)</li>
+<li>Python</li>
+<li><a href="https://www.csselectronics.com/pages/obd2-explained-simple-intro" target="_blank" rel="noreferrer">OBD-II</a></li>
+</ul>
+<h1 id="overview" class="relative group">Overview <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a></span></h1><p>The data collection is handeled by a bluetooth OBD reader and a raspberry pi. When powered on the pi continously checks for the bluetooth dongle and, if present, reads data from it. The data is then written to a local database on the pi. Also while powered on, another process is continously checking if I&rsquo;m connected to my home wifi. If I am connected to my wifi then this process will ask my telemetry server what was the timestamp of the last piece of data it received. If the timestamp for the latest data on the local raspberry pi database is more recent than the timestamp of the telemetry server then the raspberry pi will send telemetry records one at a time to the telemetry server. This is nice because if the pi looses connection to the telemetry server (e.g I drive my car somewhere else) then the pi will pick up where it left off the next time its within range of my wifi.</p>
 
   
   
@@ -435,17 +444,57 @@
   
 
   
-  
-    
-    
   
   <figure class="mx-auto my-0 rounded-md">
-    <img src="images/room-light-control.jpeg" alt="" class="mx-auto my-0 rounded-md"/>
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            
+              srcset="/projects/pidrive/images/PiDrive-pi-diagram_hu4330182153971194714.webp"
+            
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="491"
+        height="362"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/pidrive/images/PiDrive-pi-diagram.png"
+        
+      />
+    </picture>
+  
+
+
     
   </figure>
 
-</p>
-<p>Here is my latching circuit on perf board and mounted to my loft. It&rsquo;s nothing fancy but served its purpose and I used it many times a day for the entire year. It never failed me! The latch would toggle a relay, which turned on and off a set of rope lights. Something scrappy I did was take a usb charging brick and steal the 5V pins from its output USB to get 5V to my circuit from AC wall power.
+
+<p>The telemetry server is a simple RESTful API written in Java using the Spring Boot framework. It only has two core jobs: receive telemetry data and write telemetry data to InfluxDB. Before telemetry data can be received the server must be told about the existance of a car via the <code>/cars</code> endpoint. After the server is told about a car a unique ID is generated and telemetry data can be sent to the server via the <code>/cars/{id}/telemetry</code> endpoint. To check what cars exist and find a car&rsquo;s id the <code>/cars</code> endpoint can be queried.</p>
 
   
   
@@ -454,16 +503,69 @@
   
 
   
-  
-    
-    
   
   <figure class="mx-auto my-0 rounded-md">
-    <img src="images/room-light-control-2.jpeg" alt="" class="mx-auto my-0 rounded-md"/>
+    
+      
+      
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="mx-auto my-0 rounded-md"
+      
+    >
+      
+      
+      
+      
+        <source
+          
+            
+              srcset="/projects/pidrive/images/PiDrive-api-server_hu12748881801864661196.webp"
+            
+          
+          sizes="100vw"
+          type="image/webp"
+        />
+      
+      <img
+        width="641"
+        height="321"
+        class="mx-auto my-0 rounded-md"
+        
+        loading="lazy" decoding="async"
+        
+          src="/projects/pidrive/images/PiDrive-api-server.png"
+        
+      />
+    </picture>
+  
+
+
     
   </figure>
 
-</p>
+
+<h1 id="recreate-the-project" class="relative group">Recreate the project <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#recreate-the-project" aria-label="Anchor">#</a></span></h1><p>Checkout my <a href="https://github.com/garrett928/Pi-Drive" target="_blank" rel="noreferrer">github</a> for steps on recreating this project.</p>
+<h1 id="useful-resources" class="relative group">Useful Resources <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#useful-resources" aria-label="Anchor">#</a></span></h1><ul>
+<li><a href="https://www.ietf.org/rfc/rfc2616.txt" target="_blank" rel="noreferrer">HTTP 1.1 standard</a> lays out the definition and uses of GET, POST, PUT, and delete</li>
+<li><a href="https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven" target="_blank" rel="noreferrer">REST APIS vs RPC</a> What actually makes something RESTful? Using HTTP request is not enough</li>
+<li><a href="https://stateless.co/hal_specification.html" target="_blank" rel="noreferrer">Hypertext Application Language (HAL)</a> how to navigate hyperlink resources in an API</li>
+<li><a href="https://spring.io/guides/tutorials/rest" target="_blank" rel="noreferrer">Getting started with spring RESTful API</a> a pretty indepth guide at setting up spring to serve a RESTful API</li>
+<li><a href="https://docs.influxdata.com/influxdb/v2/reference/key-concepts/data-elements/#Copyright" target="_blank" rel="noreferrer">InfluxDB data point</a> how data is stored in InfluxDB
+<ul>
+<li><a href="https://docs.influxdata.com/influxdb/v2/write-data/best-practices/schema-design/" target="_blank" rel="noreferrer">How you should design a schema</a></li>
+<li><a href="https://docs.influxdata.com/influxdb/v2/write-data/best-practices/resolve-high-cardinality/" target="_blank" rel="noreferrer">High Series Cardinality</a> How and why to avoid high series cardinality</li>
+</ul>
+</li>
+</ul>
 
       </div>
     </section>
