@@ -10,7 +10,7 @@ showTableOfContents: true
 showSummary: True
 draft: false
 # layout: simple
-summary: "Car data logging stack with raspberry pi collection front end and Java Spring Boot API backend "
+summary: "Car data logging stack with raspberry pi front end and Java Spring Boot API backend"
 ---
 
 # Pi-Drive
