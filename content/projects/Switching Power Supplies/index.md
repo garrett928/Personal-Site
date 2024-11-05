@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: "Switching-Power-Supplies"
-title: "Switching Power Supples"
+title: "Switching Power Supplies"
 date: 2023-09-10
 showAuthor: true
 showDate: true
