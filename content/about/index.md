@@ -135,7 +135,7 @@ several CAN devices automatically to assist manufacturing testing and verificati
 
 ## Honors and Awards
 
-### Student Representative to Univerity Presidental Comitte
+### Student Representative to University Presidential Committee
 | 
 :--- | --- | --- | --- | --- | --- | --- | ---|  --- | -------: | ---:
 Rose-Hulman Institute of Technology | | | | | | | | | | Aug 2023 - Jan 2024
