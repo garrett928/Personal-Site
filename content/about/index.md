@@ -27,10 +27,15 @@ While pursing my Electrical Engineering degree from [Rose-Hulman Institute of Te
 
 ## Work Experience
 
+### MISO
+| 
+:--- | --- | --- | --- | --- | --- | --- | ---|  --- | -------: | ---:
+Software Engineer | | | | | | | | | Carmel, IN | Jan 2025 - Present
+
 ### DEKA Research and Development
 | 
 :--- | --- | --- | --- | --- | --- | --- | ---|  --- | -------: | ---:
-Electrical Engineer | | | | | | | | | Manchester, NH | May 2024 - Present
+Electrical Engineer | | | | | | | | | Manchester, NH | May 2024 - Dec 2024
 
 &bull; Verify PCB assemblies for technical accuracy upon arrival  
 &bull; Utilize test bench equipment to debug, repair, and modify PCBs  
